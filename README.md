@@ -1,8 +1,8 @@
 # adapterExample
 
 ```js
-import PasswordBuilder from '../PasswordBuilder.js';
-import PasswordGeneratorAdapter from '../PasswordGeneratorAdapter.js';
+import PasswordBuilder from './PasswordBuilder.js';
+import PasswordGeneratorAdapter from './PasswordGeneratorAdapter.js';
  
 const builder = new PasswordBuilder(new PasswordGeneratorAdapter());
  
